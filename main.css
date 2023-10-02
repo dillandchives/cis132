@@ -1,0 +1,43 @@
+body {
+	background-color: thistle;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+header h1 {
+	font-size: 300%;
+	font-family: georgia;
+	color: cadetblue;
+	text-align: center;
+}
+
+nav > ul {
+	color: saddlebrown;
+	line-height: 2.5em;
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+section {
+	background-color: mistyrose;
+	width: 80%;
+	margin-left: 8em;
+	font-size: 1.2em;
+	padding-bottom: 1em;
+}
+
+section h2 {
+	color: palevioletred;
+	margin-left: 1.5em;
+}
+section p {
+	color: saddlebrown;
+}
+section ol {
+	color: saddlebrown;
+	}
+
+footer {
+	background-color: darkgrey;
+	text-align: center;
+}
