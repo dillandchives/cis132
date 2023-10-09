@@ -2,6 +2,9 @@ body {
 	background-color: thistle;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
+	max-width: 80%;
+	margin: auto;
+	width: 90%;
 }
 
 header h1 {
@@ -12,32 +15,60 @@ header h1 {
 }
 
 nav > ul {
+	background-color: rosybrown;
 	color: saddlebrown;
 	line-height: 2.5em;
 	list-style-type: none;
-	padding-left: 15px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-top: 4px solid gray;
+	border-bottom: 8px solid gray;
+}
+
+nav > ul li {
+	padding: 4em;
+	display: inline;
 }
 
 section {
+	width: 59%;
+	height: 250px;
+	border-right: 12px solid gray;
 	background-color: mistyrose;
-	width: 80%;
-	margin-left: 8em;
 	font-size: 1.2em;
-	padding-bottom: 1em;
+	float: left;
 }
 
 section h2 {
 	color: palevioletred;
-	margin-left: 1.5em;
+	margin-left: 1em;
 }
 section p {
 	color: saddlebrown;
+	padding-left: 12px;
 }
 section ol {
 	color: saddlebrown;
-	}
+}
+
+section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+aside {
+	width: 38%;
+	float: right;
+	background-color: rosybrown;
+	color: linen;
+	padding-left: 12px;
+}
 
 footer {
-	background-color: darkgrey;
-	text-align: center;
+	background-color: thistle;
+	position: fixed;
+	bottom: 0;
 }
