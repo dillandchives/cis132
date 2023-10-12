@@ -60,7 +60,7 @@ section img {
 }
 
 aside {
-	width: 38%;
+	width: 38.5%;
 	float: right;
 	background-color: rosybrown;
 	color: linen;
@@ -69,6 +69,6 @@ aside {
 
 footer {
 	background-color: thistle;
-	position: fixed;
 	bottom: 0;
+	clear: both
 }
